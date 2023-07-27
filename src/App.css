@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,40 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+body{
+  background-color: beige;
+}
+.nav-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border:2px solid brown;
+  height: 80px;
+  font-size:larger;
+  background-color: antiquewhite;
+}
+
+.bookroutes-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border:2px solid black;
+  height: 80px;
+  font-size:larger;
+  background-color:rgb(242, 234, 234);
+  margin-top: 20px;
+
+}
+
+.authorroutes-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border:2px solid rgb(57, 5, 168);
+  height: 80px;
+  font-size:larger;
+  background-color:rgb(152, 140, 244);
+  margin-top: 20px;
 }
